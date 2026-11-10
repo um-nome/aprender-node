@@ -1,0 +1,21 @@
+{
+  "name": "aprender-node",
+  "version": "1.0.0",
+  "description": "Um projeto para aprender node.js pela primeira vez",
+  "main": "server.js",
+  "scripts": {
+    "server": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "um-nome/João Victor",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "6.19",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "prisma": "6.19"
+  }
+}
